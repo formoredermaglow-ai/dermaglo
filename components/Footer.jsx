@@ -20,7 +20,7 @@ export default function Footer() {
             <div className={styles.logo}>
               <img src="/logo.png" alt="Derma Glo" className={styles.logoImg} />
               <div className={styles.logoText}>
-                <span className={styles.brandName}>Lasya's Derma Glo</span>
+                <span className={styles.brandName}>Lasya&apos;s Derma Glo</span>
                 <span className={styles.tagline}>Advanced Skin Health</span>
               </div>
             </div>
@@ -72,7 +72,7 @@ export default function Footer() {
         </div>
 
         <div className={styles.bottom}>
-          <span>© 2026 Lasya's Derma Glo. All rights reserved.</span>
+          <span>© 2026 Lasya&apos;s Derma Glo. All rights reserved.</span>
           <span><a href="#">Privacy Policy</a> · <a href="#">Terms of Service</a></span>
         </div>
       </div>

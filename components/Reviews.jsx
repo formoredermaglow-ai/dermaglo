@@ -36,7 +36,7 @@ export default function Reviews() {
           <div className="section-tag">Patient Stories</div>
           <h2 className="section-heading">What Our Clients Say</h2>
           <p className="section-sub" style={{ margin: '12px auto 0' }}>
-            Real results, real people. See why clients across Rajamahendravaram trust Lasya's Derma Glo for their skin.
+            Real results, real people. See why clients across Rajamahendravaram trust Lasya&apos;s Derma Glo for their skin.
           </p>
         </div>
         <div className={styles.grid}>
@@ -48,7 +48,7 @@ export default function Reviews() {
               style={{ opacity: 0, transform: 'translateY(24px)', transition: `opacity 0.5s ease ${i * 0.08}s, transform 0.5s ease ${i * 0.08}s` }}
             >
               <div className={styles.stars}>{[...Array(5)].map((_, j) => <span key={j}>★</span>)}</div>
-              <p className={styles.text}>"{text}"</p>
+              <p className={styles.text}>&ldquo;{text}&rdquo;</p>
               <div className={styles.author}>
                 <div className={styles.avatar}>{initial}</div>
                 <div>

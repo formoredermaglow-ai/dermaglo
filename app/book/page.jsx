@@ -86,7 +86,7 @@ export default function BookPage() {
           <div className={styles.successCard}>
             <div className={styles.successIcon}>✅</div>
             <h2>Appointment Request Sent!</h2>
-            <p>Thank you, <strong>{form.name}</strong>! We've received your request for <strong>{form.service}</strong> on <strong>{form.date}</strong> at <strong>{form.time}</strong>.</p>
+            <p>Thank you, <strong>{form.name}</strong>! We&apos;ve received your request for <strong>{form.service}</strong> on <strong>{form.date}</strong> at <strong>{form.time}</strong>.</p>
             <p className={styles.successNote}>
               Our team will call you on <strong>+91 {form.phone}</strong> within 2 hours to confirm.
               For urgent queries, reach us at <a href="tel:9063914333">90639 14333</a>.
@@ -116,7 +116,7 @@ export default function BookPage() {
               <h1 className={styles.heroTitle}>Book Your <em>Appointment</em></h1>
               <p className={styles.heroSub}>
                 Fill in the form and our team will confirm your appointment within 2 hours.
-                We're open Mon–Sat, 9 AM – 7 PM.
+                We&apos;re open Mon–Sat, 9 AM – 7 PM.
               </p>
               <div className={styles.infoCards}>
                 <div className={styles.infoCard}>
@@ -259,7 +259,7 @@ function BookNavbar({ bookingOnly }) {
           <Link href="/" className={styles.bookNavLogo}>
             <img src="/logo.png" alt="Derma Glo" className={styles.bookNavLogoImg} />
             <div>
-              <div className={styles.bookNavBrand}>Lasya's Derma Glo</div>
+              <div className={styles.bookNavBrand}>Lasya&apos;s Derma Glo</div>
               <div className={styles.bookNavTag}>Advanced Skin Health</div>
             </div>
           </Link>
@@ -274,7 +274,7 @@ function BookFooter() {
   return (
     <footer className={styles.bookFooter}>
       <div className="container">
-        <p>© 2026 Lasya's Derma Glo · <a href="tel:9063914333">90639 14333</a> · <a href="mailto:formoredermaglo@gmail.com">formoredermaglo@gmail.com</a></p>
+        <p>© 2026 Lasya&apos;s Derma Glo · <a href="tel:9063914333">90639 14333</a> · <a href="mailto:formoredermaglo@gmail.com">formoredermaglo@gmail.com</a></p>
         <div className={styles.bookFooterSocial}>
           <a href="https://www.instagram.com/dermaglo.clinic_rjy?utm_source=qr" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
           <a href="https://wa.me/message/YOZN74TI4NQRO1" target="_blank" rel="noopener noreferrer" className={styles.footerWaLink}><WhatsAppIcon size={15} /> WhatsApp</a>

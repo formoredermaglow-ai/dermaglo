@@ -15,7 +15,7 @@ export default function Hero() {
               <span>5.0 Star Rated Skin Clinic in Rajamahendravaram</span>
             </div>
             <h1 className={styles.title}>
-              Reveal Your Skin's<br /><em>Natural Glo.</em>
+              Reveal Your Skin&apos;s<br /><em>Natural Glo.</em>
             </h1>
             <p className={styles.desc}>
               Experience personalised, science-backed skin treatments in a calming environment.
@@ -42,7 +42,7 @@ export default function Hero() {
             <div className={styles.imageCard}>
               <div className={styles.imagePlaceholder}>
                 <span className={styles.iconLarge}>🌸</span>
-                <p>Lasya's Derma Glo Clinic</p>
+                <p>Lasya&apos;s Derma Glo Clinic</p>
               </div>
             </div>
             <div className={styles.floatBadge}>

@@ -9,7 +9,7 @@ export default function About() {
             <div className="section-tag">Our Story</div>
             <h2 className="section-heading">Bringing Advanced Skincare to Rajamahendravaram</h2>
             <p className={styles.body}>
-              At Lasya's Derma Glo, we saw a clear gap between what modern dermatology could offer and
+              At Lasya&apos;s Derma Glo, we saw a clear gap between what modern dermatology could offer and
               what was available locally. We built this clinic with one mission: to bring the precision
               of science-backed skin health to our community — without compromise.
               <br /><br />

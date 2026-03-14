@@ -34,7 +34,7 @@ export default function Navbar() {
         <Link href="/" className={styles.logo} onClick={close}>
           <img src="/logo.png" alt="Derma Glo" className={styles.logoImg} />
           <div>
-            <span className={styles.brandName}>Lasya's Derma Glo</span>
+            <span className={styles.brandName}>Lasya&apos;s Derma Glo</span>
             <span className={styles.brandSub}>Advanced Skin Health</span>
           </div>
         </Link>
