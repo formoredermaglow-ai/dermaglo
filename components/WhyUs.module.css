@@ -1,0 +1,102 @@
+.section {
+  padding: 100px 0;
+  background: linear-gradient(160deg, #d8f0ef 0%, #f4fafa 100%);
+  position: relative;
+  overflow: hidden;
+}
+.blob3 {
+  width: 400px;
+  height: 400px;
+  background: var(--teal-pale);
+  top: -80px;
+  left: -100px;
+  opacity: 0.3;
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* Image */
+.imageWrap { position: relative; }
+.imageCard {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(46, 140, 136, 0.18);
+}
+.imagePlaceholder {
+  width: 100%;
+  height: 440px;
+  background: linear-gradient(145deg, #e4f5f4 0%, #c4e4e3 60%, #5aaca8 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+.imagePlaceholder p {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+  color: var(--teal-dark);
+  opacity: 0.85;
+}
+.iconLarge { font-size: 5rem; opacity: 0.6; }
+
+.expBadge {
+  position: absolute;
+  bottom: -18px;
+  right: -18px;
+  background: var(--teal);
+  color: var(--white);
+  border-radius: 16px;
+  padding: 18px 22px;
+  text-align: center;
+  box-shadow: 0 8px 28px rgba(46, 140, 136, 0.45);
+}
+.expNum {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.expLabel { font-size: 0.72rem; opacity: 0.9; margin-top: 3px; }
+
+/* Content */
+.content .section-sub { margin-top: 12px; }
+
+.points {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 36px;
+}
+
+.point { display: flex; gap: 14px; align-items: flex-start; }
+.pointIcon {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  background: var(--white);
+  border: 1px solid rgba(46, 140, 136, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 12px rgba(46, 140, 136, 0.08);
+}
+.pointText h4 { font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; color: var(--text); }
+.pointText p { font-size: 0.83rem; color: var(--text-muted); line-height: 1.5; }
+
+@media (max-width: 900px) {
+  .inner { grid-template-columns: 1fr; gap: 40px; }
+  .expBadge { bottom: 12px; right: 12px; }
+}
+@media (max-width: 600px) {
+  .points { grid-template-columns: 1fr; }
+}

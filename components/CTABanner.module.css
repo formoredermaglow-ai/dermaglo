@@ -1,0 +1,96 @@
+.section {
+  padding: 90px 0;
+  background: linear-gradient(135deg, var(--teal-deep) 0%, #1e6b68 50%, var(--teal) 100%);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.blob4 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background: rgba(255,255,255,0.08);
+  top: -80px;
+  left: -60px;
+  filter: blur(40px);
+  border-radius: 50%;
+}
+.blob5 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: rgba(255,255,255,0.06);
+  bottom: -70px;
+  right: -40px;
+  filter: blur(40px);
+  border-radius: 50%;
+}
+
+.inner { position: relative; z-index: 1; }
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.9);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: 50px;
+  margin-bottom: 22px;
+}
+
+.heading {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.sub {
+  color: rgba(255,255,255,0.8);
+  font-size: 1.05rem;
+  max-width: 520px;
+  margin: 0 auto 36px;
+}
+
+.buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btnWhite {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: var(--teal-dark);
+  padding: 14px 30px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.25s;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+.btnWhite:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(0,0,0,0.2); }
+
+.btnGhost {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 2px solid rgba(255,255,255,0.6);
+  color: #ffffff;
+  padding: 12px 28px;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.25s;
+}
+.btnGhost:hover { background: rgba(255,255,255,0.15); border-color: #ffffff; }
