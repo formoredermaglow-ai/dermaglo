@@ -123,7 +123,11 @@ export default function BookPage() {
                   <span className={styles.infoIcon}>📍</span>
                   <div>
                     <div className={styles.infoLabel}>Address</div>
-                    <div className={styles.infoValue}>1st Floor, Opp. Fasttracks, DDC Road,<br />Danivelpeta, Rajahmundry – 533 108</div>
+                    <div className={styles.infoValue}>
+                      <a href="https://maps.app.goo.gl/DFeEm2DR8NSSYfks5" target="_blank" rel="noopener noreferrer">
+                        1st Floor, Opp. Fasttracks, DDC Road,<br />Danivelpeta, Rajahmundry – 533 108
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className={styles.infoCard}>
@@ -156,6 +160,28 @@ export default function BookPage() {
                     <div className={styles.infoValue}>Mon – Sat: 9 AM – 7 PM</div>
                   </div>
                 </div>
+              </div>
+
+              {/* Embedded Google Map */}
+              <div className={styles.mapWrap}>
+                <iframe
+                  src="https://maps.google.com/maps?q=Lasya's+Derma+Glo+DDC+Road+Danivelpeta+Rajahmundry&output=embed&z=17"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Lasya's Derma Glo Location"
+                />
+                <a
+                  href="https://maps.app.goo.gl/DFeEm2DR8NSSYfks5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.mapDirections}
+                >
+                  📍 Get Directions
+                </a>
               </div>
             </div>
 
