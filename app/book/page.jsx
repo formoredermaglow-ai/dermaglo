@@ -120,14 +120,10 @@ export default function BookPage() {
               </p>
               <div className={styles.infoCards}>
                 <div className={styles.infoCard}>
-                  <span className={styles.infoIcon}>📍</span>
+                  <span className={styles.infoIcon}>✉️</span>
                   <div>
-                    <div className={styles.infoLabel}>Address</div>
-                    <div className={styles.infoValue}>
-                      <a href="https://maps.app.goo.gl/DFeEm2DR8NSSYfks5" target="_blank" rel="noopener noreferrer">
-                        1st Floor, Opp. Fasttracks, DDC Road,<br />Danivelpeta, Rajahmundry – 533 108
-                      </a>
-                    </div>
+                    <div className={styles.infoLabel}>Email</div>
+                    <div className={styles.infoValue}><a href="mailto:dermaglo106@gmail.com">dermaglo106@gmail.com</a></div>
                   </div>
                 </div>
                 <div className={styles.infoCard}>
@@ -147,10 +143,14 @@ export default function BookPage() {
                   </div>
                 </div>
                 <div className={styles.infoCard}>
-                  <span className={styles.infoIcon}>✉️</span>
+                  <span className={styles.infoIcon}>📍</span>
                   <div>
-                    <div className={styles.infoLabel}>Email</div>
-                    <div className={styles.infoValue}><a href="mailto:formoredermaglo@gmail.com">formoredermaglo@gmail.com</a></div>
+                    <div className={styles.infoLabel}>Address</div>
+                    <div className={styles.infoValue}>
+                      <a href="https://maps.app.goo.gl/DFeEm2DR8NSSYfks5" target="_blank" rel="noopener noreferrer">
+                        1st Floor, DDC (Doctors Diagnostics), Opp. Fast Track &amp; Yashoda Hospital,<br />Danavaipeta Main Road, Rajahmundry – 533 108
+                      </a>
+                    </div>
                   </div>
                 </div>
                 <div className={styles.infoCard}>
@@ -165,7 +165,7 @@ export default function BookPage() {
               {/* Embedded Google Map */}
               <div className={styles.mapWrap}>
                 <iframe
-                  src="https://maps.google.com/maps?q=Lasya's+Derma+Glo+DDC+Road+Danivelpeta+Rajahmundry&output=embed&z=17"
+                  src="https://maps.google.com/maps?q=Lasya's+Derma+Glo+DDC+Danavaipeta+Rajahmundry&output=embed&z=17"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -300,7 +300,7 @@ function BookFooter() {
   return (
     <footer className={styles.bookFooter}>
       <div className="container">
-        <p>© 2026 Lasya&apos;s Derma Glo · <a href="tel:9063914333">90639 14333</a> · <a href="mailto:formoredermaglo@gmail.com">formoredermaglo@gmail.com</a></p>
+        <p>© 2026 Lasya&apos;s Derma Glo · <a href="tel:9063914333">90639 14333</a> · <a href="mailto:dermaglo106@gmail.com">dermaglo106@gmail.com</a></p>
         <div className={styles.bookFooterSocial}>
           <a href="https://www.instagram.com/dermaglo.clinic_rjy?utm_source=qr" target="_blank" rel="noopener noreferrer">📸 Instagram</a>
           <a href="https://wa.me/message/YOZN74TI4NQRO1" target="_blank" rel="noopener noreferrer" className={styles.footerWaLink}><WhatsAppIcon size={15} /> WhatsApp</a>
